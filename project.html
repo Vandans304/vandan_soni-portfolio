@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Vandan Soni</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/94337cc788.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <canvas id="starCanvas"></canvas>
+    <div class="content">   
+        <header class="container">
+            <div id="navbar">
+                <div class="left"><a href="home.html"><img src="vs_page-0001-removebg-preview.png" alt="" class="logo"></a></div>
+                <div class="center">
+                    <ul id="menulist">
+                        <div class="align">
+                            <div class="image"><img src="https://img.icons8.com/ios/50/home--v1.png" alt="home--v1"/></div>
+                            <div class="bold"><a href="home.html">Home</a></div>
+                        </div>
+                        <div class="align">
+                            <div class="image"><img src="icons8-user-48.png" alt=""></div>
+                            <div class="bold"><a href="about.html">About</a></div>
+                        </div>
+                        <div class="align">
+                            <div class="image"><img src="project-management.png" alt="home--v1"/></div>
+                            <div class="bold"><a href="project.html">Projects</a></div>
+                        </div>
+                        <div class="align">
+                            <div class="image"><img src="laptop (1).png" alt="home--v1"/></div>
+                            <div class="bold"><a href="experience.html">Experiences</a></div>
+                        </div>
+                        
+                        <div class="align">
+                            <div class="image"><img src="other (1).png" alt=""></div>
+                            <div class="bold"><a href="other.html">Others</a></a></div>
+                        </div>
+                        <div class="align hide1">
+                            <li><a href="register.html"><button>Let's Connect</button></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="right">
+                    <li><a href="register.html"><button>Let's Connect</button></a></li>
+                </div>
+                <a href="#" id="menu" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></a>
+                <!-- <div class="burger">&#</div> -->
+            </div>
+        </header>
+        <div class="project-heading container" >
+            <h1 >My Recent <span>Projects</span></h1>
+            <p>Here are a few projects I've worked on recently.</p>
+        </div>
+        <div class="project-gallery-section container">
+            <div class="gallery-main">
+                <div class="gallery"data-aos="zoom-in">
+                    <div class="gallery-image">
+                        <a href=""><img src="forum__1_-removebg-preview.png" alt=""></a>
+                    </div>
+                    <div class="project-title">
+                        <p style="background-color: aqua;">Forum Webiste</p>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            I have created a fully functional dynamic website, featuring a discussion section that facilitates user conversations. For example, when User-1 posts a question, another user can log in later, see the question, and provide an answer. This enables ongoing interactions through questions, answers, and responses.
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery "data-aos="zoom-in">
+                    <div class="gallery-image">
+                        <img src="quiz__3_-removebg-preview (1).png" alt="">
+                    </div>
+                    <div class="project-title">
+                        <p style="background-color: aqua;">Quiz Website</p>
+                    </div>
+                    <div class="project-description">
+                        <p>I have created a fully responsive quiz app using HTML, CSS, and JavaScript, complete with great animations. In this app, users first log in and then are taken to the home page. Before starting the quiz, there is a guide for users to follow. Each quiz has a specific time limit, and after completing the quiz, users can log out of their accounts.
+                        </p>
+                    </div>
+                </div>
+                <div class="gallery"data-aos="zoom-in">
+                    <div class="gallery-image">
+                        <img src="travel__1_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="project-title">
+                        <p style="background-color: aqua;">Travel Agency Website</p>
+                    </div>
+                    <div class="project-description">
+                        <p>I built a travel agency website using HTML and CSS, with form validation for the cart section and other forms. In this project, users first log in to their accounts. The website includes sections like Packages, Services, Gallery, Reviews, and Contact. In the Packages section, users can select their favorite destinations and add them to the cart. The cart section allows users to view and manage their selected packages
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="gallery"data-aos="zoom-in">
+                    <div class="gallery-image">
+                        <img src="construction__1_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="project-title">
+                        <p style="background-color: aqua;">Construction Website</p>
+                    </div>
+                    <div class="project-description">
+                        <p>I created this website to learn CSS. Through this project, I learned CSS media queries for responsiveness, as well as grid, flexbox, animations, positioning, typography, z-index, and more.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="gallery"data-aos="zoom-in">
+                    <div class="gallery-image">
+                        <img src="ecommerce__1_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="project-title">
+                        <p style="background-color: aqua;">Ecommerce Website</p>
+                    </div>
+                    <div class="project-description">
+                        <p>I created a fully responsive e-commerce website using HTML and CSS, focusing on learning CSS techniques. This project features user login, product sections like Packages, Services, Gallery, Reviews, and Contact, and a cart section for managing selected items. I incorporated CSS media queries, grid, flexbox, animations, positioning, typography, and z-index to enhance the site's design and functionality.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="gallery"data-aos="zoom-in">
+                    <div class="gallery-image">
+                        <img src="food__1_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="project-title">
+                        <p style="background-color: aqua;">Food Delivery Website</p>
+                    </div>
+                    <div class="project-description">
+                        <p>I developed and maintained responsive websites using HTML, CSS, and JavaScript, along with modern frameworks like React and Angular. I created interactive animations and transitions to enhance user engagement and improve the visual appeal of the websites. I conducted cross-browser testing and debugging to ensure compatibility and optimize performance. Additionally, I implemented form validations and error handling to improve data integrity and the user experience in web forms
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      <!-- <div class="container hey">kjh</div> -->
+      <!-- <section style="height: 100vh;background-color: aqua;width: 100%;">hh</section> -->
+      <footer class="project-footer container" >
+        <div class="footer-content">
+            <p>Design and Developed by Vandan Soni</p>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 VS</p>
+        </div>
+        <div class="links">
+            <div class="icons-flex">
+                <div><a href="https://github.com/Vandan304" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div><a href="https://www.linkedin.com/in/vandan-soni-999244251" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div><a href="https://www.instagram.com/vandan_s_30/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div><a href="tel://+919510954485" target="_blank"><i class="fa-solid fa-phone-volume"></i></a></div>
+            </div>
+        </div>
+</footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+            AOS.init(
+                {
+                    offset:120,
+                    duration:1600,
+                    delay:500
+                }
+            );
+          </script>
+    <script src="script.js"></script>
+</body>
+</html>

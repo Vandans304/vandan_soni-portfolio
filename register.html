@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Vandan Soni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <canvas id="starCanvas"></canvas>
+    <div class="content">
+        <header class="container">
+            <div id="navbar">
+                <div class="left"><a href="home.html"><img src="vs_page-0001-removebg-preview.png" alt="" class="logo"></a></div>
+                <div class="center">
+                    <ul id="menulist">
+                        <div class="align">
+                            <div class="image"><img src="https://img.icons8.com/ios/50/home--v1.png" alt="home--v1"/></div>
+                            <div class="bold"><a href="home.html">Home</a></div>
+                        </div>
+                        <div class="align">
+                            <div class="image"><img src="icons8-user-48.png" alt=""></div>
+                            <div class="bold"><a href="about.html">About</a></div>
+                        </div>
+                        <div class="align">
+                            <div class="image"><img src="project-management.png" alt="home--v1"/></div>
+                            <div class="bold"><a href="project.html">Projects</a></div>
+                        </div>
+                        <div class="align">
+                            <div class="image"><img src="laptop (1).png" alt="home--v1"/></div>
+                            <div class="bold"><a href="experience.html">Experiences</a></div>
+                        </div>
+                        
+                        <div class="align">
+                            <div class="image"><img src="other (1).png" alt=""></div>
+                            <div class="bold"><a href="other.html">Others</a></a></div>
+                        </div>
+                        <div class="align hide1">
+                            <li><a href="register.html"><button>Let's Connect</button></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="right">
+                    <li><a href="register.html"><button>Let's Connect</button></a></li>
+                </div>
+                <a href="#" id="menu" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></a>
+                <!-- <div class="burger">&#</div> -->
+            </div>
+        </header>
+    <div class="main-form container">
+        <div class="form-text" data-aos="zoom-in">
+            <h1>What else you need? Let's connect! </h1>
+            <div class="h1-content">
+                <h2>I'd Love To Hear From You.</h2>
+            </div>
+            <div class="para-content">
+                <p>Unlock the power of innovation with a complimentary consultation! Share your project vision, and let us unveil the blueprint for transforming it into a remarkable digital solution. I'm eager to engage with prospective clients, discussing how we can collaborate to bring your ideas to fruition. Let's connect and embark on a journey to craft something truly extraordinary together.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="form container">
+        <div class="form-svg" data-aos="fade-right" >
+            
+            <img src="image-removebg-preview (5).png" alt="">
+        </div>
+        <div class="wrapper" data-aos="zoom-in">
+            <div class="form-wrapper sign-in">
+                <form action="#" method="post" id="contact-form">
+                    <h2>Contact - Us</h2>
+                    <div class="input-group">
+                        <input type="text" name="username" required>
+                        <label>Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="phone" required>
+                        <label>Contact Number</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="password" required>
+                        <label>Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" rows="4" cols="45" ></textarea>
+                        <label>Message</label>
+                    </div>
+                    <div class="remember">
+                        <label><input type="checkbox"> Remember Me</label>
+                    </div>
+                    <button class="submit-portfolio" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="project-footer container" >
+        <div class="footer-content">
+            <p>Design and Developed by Vandan Soni</p>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 VS</p>
+        </div>
+        <div class="links">
+            <div class="icons-flex">
+                <div><a href="https://github.com/Vandan304" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div><a href="https://www.linkedin.com/in/vandan-soni-999244251" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div><a href="https://www.instagram.com/vandan_s_30/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                <div><a href="tel://+919510954485" target="_blank"><i class="fa-solid fa-phone-volume"></i></a></div>
+            </div>
+        </div>
+</footer>
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+            AOS.init(
+                {
+                    offset:120,
+                    duration:1600,
+                    delay:500
+                }
+            );
+          </script>
+</body>
+</html>

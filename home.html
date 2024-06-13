@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Vandan Soni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <canvas id="starCanvas"></canvas>
+    <header class="container">
+        <div id="navbar">
+            <div class="left"><a href="home.html"><img src="vs_page-0001-removebg-preview.png" alt="" class="logo"></a></div>
+            <div class="center">
+                <ul id="menulist">
+                    <div class="align">
+                        <div class="image"><img src="https://img.icons8.com/ios/50/home--v1.png" alt="home--v1"/></div>
+                        <div class="bold"><a href="home.html">Home</a></div>
+                    </div>
+                    <div class="align">
+                        <div class="image"><img src="icons8-user-48.png" alt=""></div>
+                        <div class="bold"><a href="about.html">About</a></div>
+                    </div>
+                    <div class="align">
+                        <div class="image"><img src="project-management.png" alt="home--v1"/></div>
+                        <div class="bold"><a href="project.html">Projects</a></div>
+                    </div>
+                    <div class="align">
+                        <div class="image"><img src="laptop (1).png" alt="home--v1"/></div>
+                        <div class="bold"><a href="experience.html">Experiences</a></div>
+                    </div>
+                    
+                    <div class="align">
+                        <div class="image"><img src="other (1).png" alt=""></div>
+                        <div class="bold"><a href="other.html">Others</a></a></div>
+                    </div>
+                    <div class="align hide1">
+                        <li><a href="register.html"><button>Let's Connect</button></a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="right">
+                <li><a href="register.html"><button>Let's Connect</button></a></li>
+            </div>
+            <a href="#" id="menu" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></a>
+            <!-- <div class="burger">&#</div> -->
+        </div>
+    </header>
+        <div class="content">
+        <div class="hero container"data-aos="zoom-in">
+            <div class="left-flex" data-aos="fade-right">
+                <div class="title-hi">
+                    <h1>Hi There! <span>👋🏻</span></h1>
+                </div>
+                <div class="title-heading">
+                    <h1>I'M <span>VANDAN SONI</span></h1>
+                </div>
+                <div class="con">
+                    <span class="text sec-text">Freelencer</span>
+                </div>
+                <div class="resume-btn">
+                    <a href="https://drive.google.com/file/d/1St7d5TI2W_fgACMPUwOJ9UKMuTpVSArd/view?usp=sharing" target="_blank"><button>Download Resume</button></a>
+                </div>
+            </div>
+            <div class="right-flex" data-aos="zoom-in">
+               <div class="hero-image">
+                <img src="logo (5).png" alt="" style="z-index: -1;">
+               </div>
+            </div>
+        </div>
+        <div class="skills-title" >
+            <h1>Professional <span>Skillset</span></h1>
+        </div>
+        <div class="professional-skillset container">
+            <div class="skills-gallery">
+                <div class="skills-box">
+                    <!-- <i class="devicon-cplusplus-plain"></i> -->
+                     <i class="devicon-c-plain"></i>
+          
+                    <p class="hide">C</p>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-cplusplus-plain"></i>
+                    <p class="hide">C++</p>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-html5-plain"></i>
+                    <p class="hide">Html</p>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-css3-plain"></i>
+                    <p class="hide">Css</p>
+                </div>
+                <div class="skills-box">
+                    <i class="devicon-javascript-plain"></i>
+                    <p class="hide">JavaScript</p>
+                </div>
+                <div class="skills-box" >
+                    <!-- <i class="devicon-reactjs-plain-wordmark"></i> -->
+                    <i class="devicon-react-original"></i>
+                    <p class="hide">ReactJs</p>
+                </div>
+                <div class="skills-box" >
+                    <!-- <i class="devicon-cplusplus-plain"></i> -->
+                     <!-- <i class="devicon-express-original"></i> -->
+                     <i class="devicon-nodejs-plain-wordmark"></i>
+                    <p class="hide">NodeJS</p>
+                </div>
+                <div class="skills-box" >
+                    <i class="devicon-express-original"></i>
+                    <p class="hide">ExpressJs</p>
+                </div>
+                <div class="skills-box" >
+                    <!-- <i class="devicon-css3-plain"></i> -->
+                    <i class="devicon-mongodb-plain"></i>
+                    <p class="hide">MongoDB</p>
+                </div>
+                <div class="skills-box" >
+                    <!-- <i class="devicon-javascript-plain"></i> -->
+                    <i class="devicon-mysql-plain-wordmark"></i>
+                    <p class="hide">MySQL</p>
+                </div>
+                <div class="skills-box" >
+                    <!-- <i class="devicon-nodejs-plain-wordmark"></i> -->
+                    <i class="devicon-python-plain"></i>
+                    <p class="hide">Python</p>
+                </div>
+                <div class="skills-box" >
+                    <i class="devicon-dot-net-plain"></i>
+                    <p class="hide">.NET</p>
+                </div>
+                <div class="skills-box" >
+                    <i class="devicon-microsoftsqlserver-plain"></i>
+                    <p class="hide">MS SQL Server</p>
+                </div>
+                <div class="skills-box" >
+                    <i class="devicon-github-original"></i>
+                    <p class="hide">GitHub</p>
+                </div>
+                <div class="skills-box" >
+                    <i class="devicon-bootstrap-plain"></i>
+          
+                    <p class="hide">Bootstrap</p>
+                </div>
+                
+            </div>
+
+
+           
+        </div>
+        
+        <div class="connect-with-me">
+            <h1 data-aos="zoom-in" >Feel free to <span>connect</span> with me</h1>
+            <div class="connect-links">
+                <div class="connect-all-links">
+                   <div class="connect-box" data-aos="zoom-in">
+                    <div><a href="https://github.com/Vandan304" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                   </div>
+                   <div class="connect-box" data-aos="zoom-in">
+                    <div><a href="https://www.linkedin.com/in/vandan-soni-999244251" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                   </div>
+                    <div class="connect-box" data-aos="zoom-in" >
+                        <div><a href="tel://+919510954485" target="_blank"><i class="fa-solid fa-phone-volume"></i></a></div>
+                    </div>
+                   <div class="connect-box"data-aos="zoom-in">
+                    <div> <a href="mailto:vandansonicareers@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a></div>
+                   </div>
+                    <div class="connect-box" data-aos="zoom-in" >
+                        <a href="https://www.instagram.com/vandan_s_30/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <footer class="project-footer container" >
+            <div class="footer-content">
+                <p>Design and Developed by Vandan Soni</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2024 VS</p>
+            </div>
+            <div class="links">
+                <div class="icons-flex">
+                    <div><a href="https://github.com/Vandan304" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                    <div><a href="https://www.linkedin.com/in/vandan-soni-999244251" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                    <div><a href="https://www.instagram.com/vandan_s_30/?next=%2F" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div><a href="tel://+919510954485" target="_blank"><i class="fa-solid fa-phone-volume"></i></a></div>
+                </div>
+            </div>
+</footer>
+</div>
+    <!-- <div>kjk</div> -->
+     
+
+<!-- aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration:1600,
+      });
+    </script>
+   <script src="script.js"></script>
+</body>
+</html>
